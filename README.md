@@ -1,1 +1,0 @@
-# shahriarsimanto.github.io
