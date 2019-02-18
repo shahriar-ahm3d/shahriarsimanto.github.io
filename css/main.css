@@ -26,32 +26,32 @@ attribution would be nice, but not required
 /*fonts*/
 @font-face {
 	font-family: 'Cantarell';
-	src: url('../_fonts/Cantarell-Regular-webfont.eot');
-	src: url('../_fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Regular-webfont.woff') format('woff'), url('../_fonts/Cantarell-Regular-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Regular-webfont.svg#webfont9UOzsjXz') format('svg');
+	src: url('../fonts/Cantarell-Regular-webfont.eot');
+	src: url('../fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Cantarell-Regular-webfont.woff') format('woff'), url('../_fonts/Cantarell-Regular-webfont.ttf') format('truetype'), url('../fonts/Cantarell-Regular-webfont.svg#webfont9UOzsjXz') format('svg');
 	font-weight: normal;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: 'Cantarell';
-	src: url('../_fonts/Cantarell-Oblique-webfont.eot');
-	src: url('../_fonts/Cantarell-Oblique-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Oblique-webfont.woff') format('woff'), url('../_fonts/Cantarell-Oblique-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Oblique-webfont.svg#webfontRl4nowrT') format('svg');
+	src: url('../fonts/Cantarell-Oblique-webfont.eot');
+	src: url('../fonts/Cantarell-Oblique-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Oblique-webfont.woff') format('woff'), url('../fonts/Cantarell-Oblique-webfont.ttf') format('truetype'), url('../fonts/Cantarell-Oblique-webfont.svg#webfontRl4nowrT') format('svg');
 	font-weight: normal;
 	font-style:italic;
 }
 
 @font-face {
 	font-family: 'Cantarell';
-	src: url('../_fonts/Cantarell-Bold-webfont.eot');
-	src: url('../_fonts/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Bold-webfont.woff') format('woff'), url('../_fonts/Cantarell-Bold-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Bold-webfont.svg#webfontKr2CkGZp') format('svg');
+	src: url('../fonts/Cantarell-Bold-webfont.eot');
+	src: url('../fonts/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Cantarell-Bold-webfont.woff') format('woff'), url('../fonts/Cantarell-Bold-webfont.ttf') format('truetype'), url('../fonts/Cantarell-Bold-webfont.svg#webfontKr2CkGZp') format('svg');
 	font-weight: bold;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: 'Cantarell';
-	src: url('../_fonts/Cantarell-BoldOblique-webfont.eot');
-	src: url('../_fonts/Cantarell-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-BoldOblique-webfont.woff') format('woff'), url('../_fonts/Cantarell-BoldOblique-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-BoldOblique-webfont.svg#webfontQ1aSR0ux') format('svg');
+	src: url('../fonts/Cantarell-BoldOblique-webfont.eot');
+	src: url('../fonts/Cantarell-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Cantarell-BoldOblique-webfont.woff') format('woff'), url('../fonts/Cantarell-BoldOblique-webfont.ttf') format('truetype'), url('../fonts/Cantarell-BoldOblique-webfont.svg#webfontQ1aSR0ux') format('svg');
 	font-weight: bold;
 	font-style:italic;
 }
@@ -197,7 +197,7 @@ header h1 {
 	margin-right: .5em;
 	float: left;
 	padding-left: 110px;
-	background: url(../_images/desolve_logo.png) no-repeat left center;
+	background: url(../images/desolve_logo.png) no-repeat left center;
 	color: #fff;
 }
 
@@ -254,22 +254,22 @@ header a, header a:hover {
 }
 
 a.gallery {
-	background: url(../_images/icon_sprites_25.png) no-repeat 0 3px;
+	background: url(../images/icon_sprites_25.png) no-repeat 0 3px;
 	padding-left: 22px;
 }
 
 a.gear {
-	background: url(../_images/icon_sprites_25.png) no-repeat 38px -98px;
+	background: url(../images/icon_sprites_25.png) no-repeat 38px -98px;
 	padding-left: 22px;
 }
 
 a.interact {
-	background: url(../_images/icon_sprites_25.png) no-repeat 62px -197px;
+	background: url(../images/icon_sprites_25.png) no-repeat 62px -197px;
 	padding-left: 24px;
 }
 
 a.shop {
-	background: url(../_images/icon_sprites_25.png) no-repeat 6px -297px;
+	background: url(../images/icon_sprites_25.png) no-repeat 6px -297px;
 	padding-left: 20px;
 }
 
@@ -278,7 +278,7 @@ a.shop {
 	height: 350px;
 	padding-left: 50px;
     overflow: hidden;
-	background: url(../_images/gallery_banner.jpg) no-repeat;
+	background: url(../images/gallery_banner.jpg) no-repeat;
 	margin-bottom: 4em;
     position: relative;
 }
@@ -318,7 +318,7 @@ article > h1 {
 	font-size: 1.8em;
 	border-bottom: 2px solid rgb(76, 67, 65);
 	margin-bottom: 1.5em;
-	background: url(../_images/icon_sprites_50.png) no-repeat
+	background: url(../images/icon_sprites_50.png) no-repeat
 }
 
 article h2 {
@@ -406,15 +406,15 @@ article h2 a:hover {
 }
 
 .philly .preview {
-	background: url(../_images/philly_banner.jpg) no-repeat;
+	background: url(../images/philly_banner.jpg) no-repeat;
 }
 
 .chicago .preview {
-	background: url(../_images/chicago_banner.jpg) no-repeat;
+	background: url(../images/chicago_banner.jpg) no-repeat;
 }
 
 .nyc .preview {
-	background: url(../_images/nyc_banner.jpg) no-repeat;
+	background: url(../images/nyc_banner.jpg) no-repeat;
 }
 
 /* individual gallery styles*/
@@ -708,7 +708,7 @@ input[type="search"] {
 	width: 90px;
 	height: 90px;
 	border: none;
-	background: url(../_images/tweet_90.png) no-repeat;
+	background: url(../images/tweet_90.png) no-repeat;
 	text-indent: 2000em;
 }
 
