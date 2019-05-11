@@ -1,60 +1,200 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link type="text/css" href="css/foundation.css" rel="stylesheet">
-    <script type="text/javascript" src="js/vendor/foundation.js"></script>
-    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--    css styles-->
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link type="text/css" href="css/reset.css" rel="stylesheet">
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/respond.js"></script>
+    <script type="text/javascript" src="js/caroufredsel.js"></script>
 
-    <style>
-        .hover-underline-menu {
-            width: 100%;
-        }
-
-        .hover-underline-menu .menu {
-            background-color: #2C3840;
-        }
-
-        .hover-underline-menu .menu a {
-            color: #fefefe;
-            padding: 1.2rem 1.5rem;
-        }
-
-        .hover-underline-menu .menu .underline-from-center {
-            position: relative;
-        }
-
-        .hover-underline-menu .menu .underline-from-center::after {
-            content: "";
-            position: absolute;
-            top: calc(100% - 0.125rem);
-            border-bottom: 0.125rem solid #fefefe;
-            left: 50%;
-            right: 50%;
-            transition: all 0.5s ease;
-        }
-
-        .hover-underline-menu .menu .underline-from-center:hover::after {
-            left: 0;
-            right: 0;
-            transition: all 0.5s ease;
-        }
-
-    </style>
 </head>
 
 <body>
-    <nav class="hover-underline-menu" data-menu-underline-from-center>
-        <ul class="menu align-center">
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Four</a></li>
+    <!--   body content-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <a class="logo" href="#"><img src="img/logo.png" alt="logo"></a>
+                <nav class="menu" id="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Works</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    <section class="slider">
+        <ul class="slider-carousel" id="slider-carousel">
+            <li class="img1">
+                <h1>Welcome to <span class="primary">Corporate</span></h1>
+                <p>It is a long established fact that the reader will be destracted by the readable<br>content of the page when looking in its page.</p>
+                <a class="primary-bg cta1" href="#">Get started</a>
+                <a class="secondary-sky-blue-bg cta2" href="#">Contact Us</a>
+            </li>
+            <li class="img1">
+                <h1>Welcome to <span class="primary">Corporate</span></h1>
+                <p>It is a long established fact that the reader will be destracted by the readable<br>content of the page when looking in its page.</p>
+                <a class="primary-bg cta1" href="#">Get started</a>
+                <a class="secondary-sky-blue-bg cta2" href="#">Contact Us</a>
+            </li>
+            <li class="img1">
+                <h1>Welcome to <span class="primary">Corporate</span></h1>
+                <p>It is a long established fact that the reader will be destracted by the readable<br>content of the page when looking in its page.</p>
+                <a class="primary-bg cta1" href="#">Get started</a>
+                <a class="secondary-sky-blue-bg cta2" href="#">Contact Us</a>
+            </li>
         </ul>
-    </nav>
-    <script>
-        $("[data-menu-underline-from-center] a").addClass("underline-from-center");
+        <ul class="sliderpager">
 
-    </script>
-</body>
+            <li>
+                <a href="#"><i class="far fa-circle"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="far fa-circle"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="far fa-circle"></i></a>
+            </li>
 
-</html>
+        </ul>
+    </section>
+    <section class="services section-padding">
+        <div class="services-header">
+            <h2>Services</h2>
+            <p>It is a long established fact that the reader will be destracted by the readable<br>content of the page when looking in its page.</p>
+        </div>
+        <div class="services-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <P><i class="fas fa-laptop"></i></P>
+                        <h3>Web Design</h3>
+                        <p>It is a long established fact that the reader will be destracted by the readable content of the page when looking in its page.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <P><i class="fas fa-edit"></i></P>
+                        <h3>Graphic Design</h3>
+                        <p>It is a long established fact that the reader will be destracted by the readable content of the page when looking in its page.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <P><i class="fas fa-cog"></i></P>
+                        <h3>PSD to HTML/CSS</h3>
+                        <p>It is a long established fact that the reader will be destracted by the readable content of the page when looking in its page.</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <P><i class="fas fa-bars"></i></P>
+                        <h3>Wordpress</h3>
+                        <p>It is a long established fact that the reader will be destracted by the readable content of the page when looking in its page.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <P><i class="fas fa-leaf"></i></P>
+                        <h3>Theme Development</h3>
+                        <p>It is a long established fact that the reader will be destracted by the readable content of the page when looking in its page.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <P><i class="fas fa-globe-americas"></i></P>
+                        <h3>Unlimited Support</h3>
+                        <p>It is a long established fact that the reader will be destracted by the readable content of the page when looking in its page.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio section-padding">
+        <div class="portfolio-header">
+            <h2 class="white">Our Recent Works</h2>
+            <p>It is a long established fact that the reader will be destracted by the readable<br>content of the page when looking in its page.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <ul class="portfolio-carousel">
+                    <li>
+                        <div class="inner-content">
+                            <img src="img/portfolio/project1.png" alt="">
+                            <div class="overlay-content">
+                                <h3>Environment Website</h3>
+                                <p><a href="#">Click Here</a> for details</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner-content">
+                            <img src="img/portfolio/project1.png" alt="">
+                            <div class="overlay-content">
+                                <h3>Environment Website</h3>
+                                <p><a href="#">Click Here</a> for details</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner-content">
+                            <img src="img/portfolio/project1.png" alt="">
+                            <div class="overlay-content">
+                                <h3>Environment Website</h3>
+                                <p><a href="#">Click Here</a> for details</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner-content">
+                            <img src="img/portfolio/project1.png" alt="">
+                            <div class="overlay-content">
+                                <h3>Environment Website</h3>
+                                <p><a href="#">Click Here</a> for details</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner-content">
+                            <img src="img/portfolio/project1.png" alt="">
+                            <div class="overlay-content">
+                                <h3>Environment Website</h3>
+                                <p><a href="#">Click Here</a> for details</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner-content">
+                            <img src="img/portfolio/project1.png" alt="">
+                            <div class="overlay-content">
+                                <h3>Environment Website</h3>
+                                <p><a href="#">Click Here</a> for details</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner-content">
+                            <img src="img/portfolio/project1.png" alt="">
+                            <div class="overlay-content">
+                                <h3>Environment Website</h3>
+                                <p><a href="#">Click Here</a> for details</p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--   java script-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body></html>
