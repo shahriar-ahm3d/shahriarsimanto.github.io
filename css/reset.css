@@ -73,3 +73,7 @@ ul li {
 .white {
     color: #fff;
 }
+
+.bold {
+    font-weight: bold;
+}
