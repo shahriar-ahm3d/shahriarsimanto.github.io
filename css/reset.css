@@ -59,14 +59,14 @@ a:focus {
 ul {
     list-style: none;
 }
+ ul {
+    margin-bottom: 0px;
+}
 
 ul li {
     display: inline-block;
 }
 
- ul {
-    margin-bottom: 0px;
-}
 .section-padding {
     padding: 56px 0;
 }
