@@ -196,7 +196,7 @@ header nav ul li a:focus {
 
 .portfolio .portfolio-nav li {
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 5px;
     font-size: 14px;
     width: 28px;
     height: 28px;
@@ -279,7 +279,7 @@ header nav ul li a:focus {
 
 .team .team-nav li {
     cursor: pointer;
-    margin-right: 20px;
+    margin: 20px auto;
     font-size: 14px;
     width: 28px;
     height: 28px;
