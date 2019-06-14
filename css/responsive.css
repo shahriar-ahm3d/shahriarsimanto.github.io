@@ -1,3 +1,132 @@
+.slicknav_menu {
+	display: none;
+}
+
+@media screen and (max-width: 992px) {
+	#menu {
+		display: none;
+	}
+
+	.slider {
+		margin-top: 112px;
+	}
+
+header {
+	margin-top: -112px;
+	background: #34495e;
+}
+
+	.slicknav_menu {
+		display: inline-block;
+		position: fixed;
+		z-index: 1000;
+		background: transparent;
+		right: 0px;
+		margin-top: -112px;
+	}
+
+	.slicknav_btn {
+		background: #e74c3c;
+		margin: 35px 30px 0 0;
+	}
+
+	.slicknav_nav {
+
+		background: #34495e;
+		width: 200px;
+	}
+
+
+	.slicknav_nav li {
+		margin: 0;
+		padding: 0;
+		height: 3em;
+		line-height: 3em;
+		width: 200px;
+		border-bottom: 1px solid #2e4155;
+		border-top: 1px solid #3d5267;
+		text-align: center;
+	}
+
+	.slicknav_nav li a{
+		margin: 0;
+		padding: 0;
+		-webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+		
+	}
+
+	.slicknav_nav li a:hover {
+		color: #e74c3c;
+		background: transparent;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 .slicknav_menu
 {
 	display: none;
@@ -76,7 +205,7 @@
 		margin-bottom: 30px;
 	}
 
-	/** portfolio responsive styles ***/
+	* portfolio responsive styles **
 
 	.portfolio
 	{
@@ -123,7 +252,7 @@
 		display: none;
 	}
 
-	/*testimonial*/
+	testimonial
 
 	.testimonials
 	{
@@ -141,7 +270,7 @@
 		margin: 0 auto;
 	}
 
-	/** contact form **/
+	* contact form *
 
 	.contact
 	{
@@ -155,7 +284,7 @@
 
 	}
 
-	/*** footer ***/
+	** footer **
 	footer
 	{
 		text-align: center;
@@ -181,7 +310,7 @@
 			font-size: 12px;
 		}
 
-		/*** team responsive style ***/
+		** team responsive style **
 
 		.team-carousel h3
 		{
@@ -199,7 +328,7 @@
 			font-size: 12px;
 		}
 
-		/*testimonial section */
+		testimonial section 
 
 		.testimonial-carousel li
 		{
@@ -228,7 +357,7 @@
 			margin: 0 50px;
 		}
 
-		/** contact form **/
+		* contact form *
 	form.contact-form
 	{
 		width: 80%;
@@ -256,3 +385,4 @@
 	}
 }
 
+*/
